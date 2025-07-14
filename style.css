@@ -40,7 +40,7 @@ p
 
 .title-section
 {
-    margin: 10px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -87,13 +87,17 @@ p
     text-shadow: 4px 4px 4px black;
 }
 
-a
+.contents
 {
-    color:beige;
-    font-style: normal;
-    text-align: center;
-    display: inline;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents-section
+{
+    width: 60%;
 }
 
 ul
